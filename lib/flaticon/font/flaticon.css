@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?715cbc4a93196e16d92f3e9a8c913fb2") format("truetype"),
+url("./flaticon.woff?715cbc4a93196e16d92f3e9a8c913fb2") format("woff"),
+url("./flaticon.woff2?715cbc4a93196e16d92f3e9a8c913fb2") format("woff2"),
+url("./flaticon.eot?715cbc4a93196e16d92f3e9a8c913fb2#iefix") format("embedded-opentype"),
+url("./flaticon.svg?715cbc4a93196e16d92f3e9a8c913fb2#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-credit-card:before {
+    content: "\f101";
+}
+.flaticon-hand:before {
+    content: "\f102";
+}
+.flaticon-half-frame-eyeglasses:before {
+    content: "\f103";
+}
+.flaticon-brand-positioning:before {
+    content: "\f104";
+}
+.flaticon-smiley:before {
+    content: "\f105";
+}
+.flaticon-maintenance:before {
+    content: "\f106";
+}
+.flaticon-offer:before {
+    content: "\f107";
+}
+.flaticon-mapa:before {
+    content: "\f108";
+}
+.flaticon-servicio-al-cliente:before {
+    content: "\f109";
+}
+.flaticon-email:before {
+    content: "\f10a";
+}
+.flaticon-horario-de-apertura:before {
+    content: "\f10b";
+}

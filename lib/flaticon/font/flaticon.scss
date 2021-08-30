@@ -1,0 +1,69 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?715cbc4a93196e16d92f3e9a8c913fb2") format("truetype"),
+url("./flaticon.woff?715cbc4a93196e16d92f3e9a8c913fb2") format("woff"),
+url("./flaticon.woff2?715cbc4a93196e16d92f3e9a8c913fb2") format("woff2"),
+url("./flaticon.eot?715cbc4a93196e16d92f3e9a8c913fb2#iefix") format("embedded-opentype"),
+url("./flaticon.svg?715cbc4a93196e16d92f3e9a8c913fb2#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "credit-card": "\f101",
+    "hand": "\f102",
+    "half-frame-eyeglasses": "\f103",
+    "brand-positioning": "\f104",
+    "smiley": "\f105",
+    "maintenance": "\f106",
+    "offer": "\f107",
+    "mapa": "\f108",
+    "servicio-al-cliente": "\f109",
+    "email": "\f10a",
+    "horario-de-apertura": "\f10b",
+);
+
+.flaticon-credit-card:before {
+    content: map-get($flaticon-map, "credit-card");
+}
+.flaticon-hand:before {
+    content: map-get($flaticon-map, "hand");
+}
+.flaticon-half-frame-eyeglasses:before {
+    content: map-get($flaticon-map, "half-frame-eyeglasses");
+}
+.flaticon-brand-positioning:before {
+    content: map-get($flaticon-map, "brand-positioning");
+}
+.flaticon-smiley:before {
+    content: map-get($flaticon-map, "smiley");
+}
+.flaticon-maintenance:before {
+    content: map-get($flaticon-map, "maintenance");
+}
+.flaticon-offer:before {
+    content: map-get($flaticon-map, "offer");
+}
+.flaticon-mapa:before {
+    content: map-get($flaticon-map, "mapa");
+}
+.flaticon-servicio-al-cliente:before {
+    content: map-get($flaticon-map, "servicio-al-cliente");
+}
+.flaticon-email:before {
+    content: map-get($flaticon-map, "email");
+}
+.flaticon-horario-de-apertura:before {
+    content: map-get($flaticon-map, "horario-de-apertura");
+}
