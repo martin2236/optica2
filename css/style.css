@@ -81,12 +81,18 @@ a:focus {
     position: relative;
     height: 90px;
     background: #ffffff;
+    margin-bottom: 50px;
 }
-
+@media(min-width:900px){
+    .top-bar {
+       margin-bottom: 0; 
+     }
+}
 .top-bar .logo {
     padding: 15px 0;
     text-align: left;
     overflow: hidden;
+    
 }
 
 .top-bar .logo h1 {
@@ -95,6 +101,7 @@ a:focus {
     font-size: 60px;
     line-height: 60px;
     font-weight: 700;
+   
 }
 
 .top-bar .logo img {
