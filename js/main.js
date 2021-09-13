@@ -1,4 +1,4 @@
-(function ($) {
+$(document).ready(function ($) {
     "use strict";
     
     // Initiate the wowjs
@@ -133,5 +133,5 @@
         portfolioIsotope.isotope({filter: $(this).data('filter')});
     });
     
-})(jQuery);
+});
 
